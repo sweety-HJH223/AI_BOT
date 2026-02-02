@@ -40,8 +40,6 @@ def get_last_message_from_sender(chat_log, sender_name=TARGET_SENDER):
     return ""
 
 
-# =========================================================
-
 # Step 1: Click the icon once to open the app
 pyautogui.click(*ICON_COORD)
 time.sleep(1)
